@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MovieFragment">
+    tools:context=".ui.MovieFragment">
 
     <ImageView
-        android:id="@+id/ivBanner"
+        android:id="@+id/ivBackdrop"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="centerCrop"
@@ -36,9 +36,10 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/ivCover"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/ivPoster"
+                    android:layout_width="120dp"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -52,17 +53,37 @@
                     android:text="TextView"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    app:layout_constraintStart_toEndOf="@+id/ivCover"
+                    app:layout_constraintStart_toEndOf="@+id/ivPoster"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/tvYear"
+                    android:id="@+id/tvReleaseDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:text="TextView"
-                    app:layout_constraintStart_toEndOf="@+id/ivCover"
+                    app:layout_constraintStart_toEndOf="@+id/ivPoster"
                     app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+                <ImageView
+                    android:id="@+id/ivStar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@android:drawable/btn_star_big_on"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/ivPoster" />
+
+                <TextView
+                    android:id="@+id/tvRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:text="TextView"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/ivStar"
+                    app:layout_constraintStart_toEndOf="@+id/ivStar" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView

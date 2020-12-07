@@ -2,8 +2,8 @@
     <string name="app_name">MadLevel6Task2</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="movies_fragment">Movies Fragment</string>
+    <string name="movie_fragment">Movie Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
@@ -11,6 +11,7 @@
     <string name="popular_movies">The most popular movies of</string>
     <string name="year">year</string>
     <string name="submit">Submit</string>
+    <string name="tv_number">%1$d.</string>
 
     <!-- Movie Details -->
     <string name="overview">Overview</string>
