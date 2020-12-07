@@ -7,6 +7,11 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Movies Overview -->
+    <string name="popular_movies">The most popular movies of</string>
+    <string name="year">year</string>
+    <string name="submit">Submit</string>
+
+    <!-- Movie Details -->
+    <string name="overview">Overview</string>
 </resources>

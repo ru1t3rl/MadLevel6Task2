@@ -11,7 +11,7 @@ import tech.ru1t3rl.madlevel6task2.databinding.FragmentFirstBinding
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class MoviesFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
 
